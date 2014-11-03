@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 # coding=utf-8
 """
-Queue demo
+Queue demo of producer consumer
+https://docs.python.org/3.4/library/queue.html#module-queue
 """
-
-import queue
 
 __author__ = "Michael Krisper"
 __email__ = "michael.krisper@gmail.com"
 
+import queue
 import threading
 import time
 
