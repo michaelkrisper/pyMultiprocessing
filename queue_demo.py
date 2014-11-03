@@ -12,7 +12,7 @@ __email__ = "michael.krisper@gmail.com"
 import threading
 import time
 
-q = queue.Queue()
+q = queue.Queue(3)
 
 def producer(name, delay, repeat):
     print("Producer {} started.".format(name))
